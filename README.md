@@ -1,9 +1,9 @@
 # repo2docker-githubci
 a template for building [JupyterHub](https://jupyter.org/hub) environments with [Repo2Docker](https://repo2docker.readthedocs.io/en/latest/) and [GitHub Actions CI](https://help.github.com/en/actions/automating-your-workflow-with-github-actions) 
 
-![Action Status](https://github.com/scottyhq/repo2docker-githubci/workflows/Repo2Docker/badge.svg)
-![Docker Pulls](https://img.shields.io/docker/pulls/scottyhq/repo2docker-githubci)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scottyhq/repo2docker-githubci/master?urlpath=lab)
+![Action Status](https://github.com/scottyhq/jhub-rstudio/workflows/Repo2Docker/badge.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/scottyhq/jhub-rstudio)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scottyhq/jhub-rstudio/master?urlpath=lab)
 
 ### How to use
 
