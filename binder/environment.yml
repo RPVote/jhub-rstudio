@@ -2,6 +2,4 @@
 channels:
   - conda-forge
 dependencies:
-  - r-base=4.0
-  - jupyterlab=2
-  - jupyterhub=1
+  - r-base=3.6
