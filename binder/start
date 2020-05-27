@@ -1,9 +1,0 @@
-#!/bin/bash -l
-
-# ==== ONLY EDIT WITHIN THIS BLOCK =====
-
-export MYENV="test"
-
-# ==== ONLY EDIT WITHIN THIS BLOCK =====
-
-exec "$@"
