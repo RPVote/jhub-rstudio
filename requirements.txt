@@ -1,1 +1,1 @@
-jupyter-repo2docker==0.11
+git+git://github.com/jupyter/repo2docker@81e1e39#egg=jupyter-repo2docker
