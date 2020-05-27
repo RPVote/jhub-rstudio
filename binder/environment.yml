@@ -6,3 +6,36 @@ dependencies:
   - r-irkernel>=1.1
   - r-tidyverse
   - r-devtools
+# eiCompare dependencies
+  - r-foreach
+  - r-tmvtnorm
+  - r-rcurl
+  - r-rjsonio
+  - r-sjmisc
+  - r-data.table
+  - r-ucminf
+  - r-r.utils
+  - r-mvtnorm
+  - r-msm
+  - r-mnormt
+  - r-cubature
+  - r-ellipse
+  - r-plotrix
+  - r-survival
+  - r-expm
+  - r-sandwich
+  - r-zoo
+  - r-code
+  - r-gmm
+  - r-codetools
+  - r-iterators 
+  - r-bh
+  - r-insight
+  - r-r.methodss3
+  - r-sp
+  - r-bitops
+  - r-sjlabelled
+  - r-r.oo
+  - r-rcpparmadillo
+
+
