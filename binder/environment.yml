@@ -6,7 +6,6 @@ dependencies:
   - r-irkernel>=1.1
   - r-bh
   - r-bitops
-  - r-code
   - r-codetools
   - r-cubature
   - r-data.table
