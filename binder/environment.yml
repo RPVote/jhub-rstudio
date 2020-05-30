@@ -1,8 +1,44 @@
-# https://github.com/binder-examples/r-conda/blob/master/environment.yml
+name: eicompare
 channels:
   - conda-forge
 dependencies:
   - r-base>=4
   - r-irkernel>=1.1
-  - r-tidyverse
+  - r-bh
+  - r-bitops
+  - r-codetools
+  - r-cubature
+  - r-data.table
   - r-devtools
+  - r-ellipse
+  - r-expm
+  - r-foreach
+  - r-ggplot2
+  - r-gmm
+  - r-haven
+  - r-insight
+  - r-iterators
+  - r-magrittr
+  - r-mnormt
+  - r-msm
+  - r-mvtnorm
+  - r-plotrix
+  - r-plyr
+  - r-r.methodss3
+  - r-r.oo
+  - r-r.utils
+  - r-rcpparmadillo
+  - r-rcurl
+  - r-rjsonio
+  - r-sandwich
+  - r-sjlabelled
+  - r-sjmisc
+  - r-sp
+  - r-stringr
+  - r-survival
+  - r-tidyverse
+  - r-tidyr
+  - r-tmvtnorm
+  - r-ucminf
+  - r-xtable
+  - r-zoo
