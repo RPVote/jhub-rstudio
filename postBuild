@@ -1,0 +1,4 @@
+#!/usr/bin/env R
+# (/srv/conda/envs/notebook/bin/R)
+
+R -e 'library("devtools"); install_github("lorenc5/eiCompare")'
