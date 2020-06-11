@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# (/srv/conda/envs/notebook/bin/R)
+R --save -e 'library("devtools"); install_github("lorenc5/eiCompare")'
+
+#EOF

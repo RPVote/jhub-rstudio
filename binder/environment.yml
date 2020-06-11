@@ -29,6 +29,7 @@ dependencies:
   - r-r.utils
   - r-rcpparmadillo
   - r-rcurl
+  - r-rgdal
   - r-rjsonio
   - r-sandwich
   - r-sjlabelled
