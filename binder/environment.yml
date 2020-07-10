@@ -2,6 +2,7 @@ name: eicompare
 channels:
   - conda-forge
 dependencies:
+  - pre-commit
   - r-base>=4
   - r-irkernel>=1.1
   - r-bh
