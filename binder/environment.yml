@@ -2,6 +2,7 @@ name: eicompare
 channels:
   - conda-forge
 dependencies:
+  - pre-commit
   - r-base>=4
   - r-irkernel>=1.1
   - r-bh
@@ -17,9 +18,12 @@ dependencies:
   - r-ggplot2
   - r-gmm
   - r-haven
+  - r-httpuv
   - r-insight
   - r-iterators
+  - r-lintr
   - r-magrittr
+  - r-miniui
   - r-mnormt
   - r-msm
   - r-mvtnorm
@@ -33,10 +37,13 @@ dependencies:
   - r-rgdal
   - r-rjsonio
   - r-sandwich
+  - r-shiny
   - r-sjlabelled
   - r-sjmisc
+  - r-sourcetools
   - r-sp
   - r-stringr
+  - r-styler
   - r-survival
   - r-tidyverse
   - r-tidyr
