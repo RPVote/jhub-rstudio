@@ -37,6 +37,7 @@ dependencies:
   - r-rgdal
   - r-rjsonio
   - r-sandwich
+  - r-sf
   - r-shiny
   - r-sjlabelled
   - r-sjmisc
