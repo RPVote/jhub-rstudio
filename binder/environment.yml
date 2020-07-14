@@ -15,6 +15,7 @@ dependencies:
   - r-ellipse
   - r-expm
   - r-foreach
+  - r-geojsonio
   - r-ggplot2
   - r-gmm
   - r-haven
