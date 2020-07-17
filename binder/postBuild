@@ -3,7 +3,7 @@
 # Install packages that are not availble on conda-forge
 # (/srv/conda/envs/notebook/bin/R)
 R --save -e 'library("devtools"); 
-             install.packages("precommit");
+             install.packages("precommit", repos="http://cran.us.r-project.org");
              install.packages("descr", repos="http://cran.us.r-project.org"); 
              install_github("lorenc5/eiCompare")'
 
