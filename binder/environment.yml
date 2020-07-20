@@ -16,7 +16,9 @@ dependencies:
   - r-expm
   - r-foreach
   - r-geojsonio
+  - r-ggmap
   - r-ggplot2
+  - r-ggthemes
   - r-gmm
   - r-googledrive
   - r-haven
