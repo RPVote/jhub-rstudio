@@ -1,8 +1,13 @@
 #!/bin/bash
 
-# Install github CLI
+# Install github CLI (workaround instead of `apt install`
+# requires ~/.config/gh/hosts.yml like this: 
+#github.com:
+#    user: scottyhq
+#    oauth_token: xxxxxxxxxxxxxxxxxxxxxx
 wget https://github.com/cli/cli/releases/download/v0.11.0/gh_0.11.0_linux_amd64.deb
-apt install ./gh_0.11.0_linux_amd64.deb 
+dpkg -x gh_0.11.0_linux_amd64.deb /srv/conda/gh
+ln -s /srv/conda/gh/usr/local/bin/gh /srv/conda/bin/gh
 
 # Install packages that are not availble on conda-forge
 # (/srv/conda/envs/notebook/bin/R)
