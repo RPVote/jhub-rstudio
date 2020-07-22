@@ -1,10 +1,18 @@
 #!/bin/bash
 
+# Install github CLI
+wget https://github.com/cli/cli/releases/download/v0.11.0/gh_0.11.0_linux_amd64.deb
+apt install ./gh_0.11.0_linux_amd64.deb 
+
 # Install packages that are not availble on conda-forge
 # (/srv/conda/envs/notebook/bin/R)
 R --save -e 'library("devtools"); 
              install.packages("precommit", repos="http://cran.us.r-project.org");
-             install.packages("descr", repos="http://cran.us.r-project.org"); 
-             install_github("lorenc5/eiCompare")'
+             install.packages("descr", repos="http://cran.us.r-project.org");
+             install_github("DSSG-eiCompare/eiCompare")
+             '
+
+# switch to installing development version in DSSG-eiCompare org
+#             install_github("lorenc5/eiCompare")'
 
 #EOF
