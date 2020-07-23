@@ -12,6 +12,8 @@ dependencies:
   - r-cubature
   - r-data.table
   - r-devtools
+  - r-ei
+  - r-eiPack
   - r-ellipse
   - r-expm
   - r-foreach
@@ -24,6 +26,7 @@ dependencies:
   - r-iterators
   - r-lintr
   - r-magrittr
+  - r-methods
   - r-miniui
   - r-mnormt
   - r-msm
@@ -51,5 +54,6 @@ dependencies:
   - r-tidyr
   - r-tmvtnorm
   - r-ucminf
+  - r-wru
   - r-xtable
   - r-zoo
