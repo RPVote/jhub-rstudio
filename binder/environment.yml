@@ -12,6 +12,8 @@ dependencies:
   - r-cubature
   - r-data.table
   - r-devtools
+  - r-doParallel
+  - r-doSNOW
   - r-ei
   - r-eiPack
   - r-ellipse
@@ -20,12 +22,14 @@ dependencies:
   - r-geojsonio
   - r-ggplot2
   - r-gmm
+  - r-graphics
   - r-haven
   - r-httpuv
   - r-insight
   - r-iterators
   - r-lintr
   - r-magrittr
+  - r-mcmcse
   - r-methods
   - r-miniui
   - r-mnormt
@@ -33,6 +37,7 @@ dependencies:
   - r-mvtnorm
   - r-plotrix
   - r-plyr
+  - r-purrr
   - r-r.methodss3
   - r-r.oo
   - r-r.utils
