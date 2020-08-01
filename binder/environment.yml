@@ -20,9 +20,12 @@ dependencies:
   - r-expm
   - r-foreach
   - r-geojsonio
+  - r-ggmap
   - r-ggplot2
+  - r-ggthemes
   - r-gmm
   - r-graphics
+  - r-googledrive
   - r-haven
   - r-httpuv
   - r-insight
